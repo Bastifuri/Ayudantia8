@@ -1,0 +1,32 @@
+.titulo-animado {
+    animation: aparecer 5s ease-in-out;
+}
+
+.campo-animado {
+    animation: aparecer 5s ease-in-out;
+    transition: transform 0.3s ease-in-out;
+}
+
+.boton-animado {
+    animation: aparecer 5s ease-in-out;
+    transition: transform 0.3s ease-in-out;
+}
+
+.campo-animado:hover {
+    animation: aparecer 5s ease-in-out;
+    transform: translateY(-5px);
+}
+
+.boton-animado:hover {
+    animation: aparecer 5s ease-in-out;
+    transform: scale(1.1);
+}
+
+@keyframes aparecer {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
